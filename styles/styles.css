@@ -1,0 +1,114 @@
+/* Shared Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background-color: rgba(26, 11, 46, 1);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header ul{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    color: white;
+    transition: all 300ms ease-in-out;
+}
+
+.menu a:hover{
+    color: rgba(200, 7, 145, 1);
+}
+
+/* Style */
+
+.header{
+    padding: 24px 24px;
+    border-bottom:1px solid  rgba(65, 37, 103, 1);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.hamburger{
+    visibility: hidden;
+}
+
+.btn{
+    padding: 12px 16px;
+    background-image: linear-gradient(53deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    gap: 4px;
+    border: none;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Mobile Style */
+
+@media screen and (max-width:768px) {
+
+    .header{
+    padding: 20px;
+}
+
+    .navbar{
+        display: block;
+    }
+
+    .brand{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        width: 136px;
+        height: auto;
+    }
+
+    .hamburger{
+        visibility: visible;
+    }
+
+.menu{
+    visibility: hidden;
+}
+
+    .header-btn{
+        visibility: hidden;
+    }
+    
+}
+
+
+
