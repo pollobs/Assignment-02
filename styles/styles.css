@@ -210,6 +210,20 @@ header ul {
     opacity: 10%;
 }
 
+.stats-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.stats-wrapper h2{
+    color: rgba(0, 255, 136, 1);
+    margin-bottom: 16px;
+}
+
 /* Mobile Style */
 
 @media screen and (max-width:768px) {
@@ -278,5 +292,17 @@ header ul {
     .hero-buttons {
         flex-wrap: wrap;
     }
+
+    ..about{
+    padding: 40px 20px;
+}
+
+.about-content-wrapper{
+    gap: 40px;
+}
+
+.stats-wrapper{
+    grid-template-columns: repeat(2, 1fr);
+}
 
 }
