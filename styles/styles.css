@@ -442,11 +442,11 @@ footer{
     }
 
     .menu {
-        visibility: hidden;
+        display: none;
     }
 
     .header-btn {
-        visibility: hidden;
+        display: none;
     }
 
     .hero {
